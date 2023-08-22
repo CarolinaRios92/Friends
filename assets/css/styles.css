@@ -1,0 +1,178 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.image-conteiner {
+    height: 300px;
+}
+
+@media (min-width:768px) { 
+    .image-conteiner {
+        height: 300px;
+        width: 800px;
+    }
+}
+
+.img-elenco {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.header-image {
+    width: 100%;
+}
+
+.conteiner {
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+@media (min-width: 768px){
+    .conteiner {
+            padding-left: 5%;
+            padding-right: 5%;
+            margin-left: 15%;
+            margin-right: 15%;
+        }
+}
+
+h1 {
+    text-align: center;
+    font-size: xx-large;
+}
+
+h2 {
+    text-align: center;
+    font-size: x-large;
+    text-decoration-line: underline;
+    text-decoration-color: #04b3ea;
+    text-decoration-style: double;
+}
+
+.card-img-left {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+h3 {
+    text-align: center;
+    font-size: x-large;
+}
+
+.card-img-right {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+@media (min-width:768px) {
+    .card-img-left {
+        flex-direction: row;
+    }
+    .card-img-right {
+        flex-direction: row-reverse;
+    }
+}
+
+.nav-bar {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 600;
+    padding: 5px;
+}
+
+@media (min-width: 768px){
+    .nav-bar a {
+        font-size: x-large;
+    }
+}
+
+.nav-bar a:hover {
+    transform: scale(1.1);
+}
+
+.link-home {
+    color: red;
+}
+
+.link-elenco {
+    color: #04b3ea;
+}
+
+.link-curiosidades {
+    color: yellow;
+}
+
+.link-bloopers {
+    color: black;
+}
+
+#intro {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.box-1 {
+    background-color: rgb(0,121,255, 0.4);
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 15px;
+}
+
+.box-2 {
+    margin-top: 15px;
+    background-color: rgb(238,50,31, 0.6);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.box-3 {
+    margin-top: 15px;
+    background-color: rgb(255,214,10, 0.6);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+li {
+    padding-bottom: 10px;
+}
+
+ul {
+    list-style-image: url(../img/carita-2.jpg);
+}
+
+#curiosidades {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#curiosidades h2 {
+    text-decoration-color: yellow;
+}
+
+#curiosidades img {
+    width: 90%;
+}
+
+#bloopers {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+#bloopers h2 {
+    text-decoration-color: red;
+}
