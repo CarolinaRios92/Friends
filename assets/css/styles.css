@@ -2,6 +2,11 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+}
+
 .image-conteiner {
     height: 300px;
 }
